@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_right"
+    android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/back1"
+                android:layout_width="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="250dp"
+                android:src="@mipmap/bg_add" />
+
+            <ImageView
+                android:id="@+id/icon_add1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:src="@mipmap/ic_touch_id" />
+            <ImageView
+                android:id="@+id/icon_arrow"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="150dp"
+                android:layout_toRightOf="@id/icon_add1"
+                android:src="@mipmap/icon_arrow" />
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="15dp"
+                android:layout_below="@id/icon_add1"
+                android:text="指纹001" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/back2"
+                android:layout_width="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="250dp"
+                android:src="@mipmap/bg_add" />
+            <ImageView
+                android:id="@+id/icon_add2"
+                android:layout_width="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="250dp"
+                android:src="@mipmap/j" />
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="15dp"
+                android:layout_below="@id/icon_add2"
+                android:text="人脸：001" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="50dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:text="姓名：用户001" />
+            <TextView
+                android:id="@+id/fingerprint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:text="指纹：指纹001" />
+            <TextView
+                android:id="@+id/face"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:text="人脸：人脸001" />
+            <TextView
+                android:id="@+id/correlation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:text="关联：已关联" />
+        </LinearLayout>
+
+</LinearLayout>

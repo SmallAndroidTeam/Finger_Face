@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_right"
+    tools:context=".activity.ScanActivity">
+
+    <ImageView
+        android:id="@+id/ring"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/a"
+        android:layout_marginTop="70dp"
+        android:padding="5dp" />
+    <ImageView
+        android:id="@+id/finger"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/icon_fingerprint00"
+        android:layout_marginTop="93dp"
+        android:padding="5dp" />
+    <com.example.likaixuan.recognitionsystem.utils.CustomViews
+        android:id="@+id/cv"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ring"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:text="指纹识别中，请稍等..."/>
+
+</RelativeLayout>

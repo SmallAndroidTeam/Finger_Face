@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RecognitionSystem</string>
+    <string name="add_fingerprint">添加指纹</string>
+    <string name="add_face">添加人脸</string>
+    <string name="name">姓名：点击添加姓名</string>
+    <string name="fingerprint">指纹：指纹未关联</string>
+    <string name="face">人脸：人脸未关联</string>
+    <string name="correlation">关联：未关联</string>
+    <string name="add_fingerprint_succeed">添加指纹成功 \n 添加成功的指纹将出现在指纹列表里</string>
+    <string name="associateface_succeed">添加成功 \n 添加成功的人脸id将出现在人脸id列表里</string>
+    <string name="associateface">指纹已添加成功 \n 是否关联对应的人脸ID</string>
+    <string name="associatefinger">放置手指 \n 请将手指放置在按钮上在移开 重复此步骤</string>
+</resources>
